@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="449.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.capella.bsit.dimmerswitch.StartScreenController">
+   <children>
+      <BorderPane layoutX="5.0" layoutY="5.0" prefHeight="436.0" prefWidth="803.0">
+         <bottom>
+            <Button fx:id="clickHereButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" text="Click Here" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </bottom>
+         <center>
+            <Label text="Page Left Blank Intentionally" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
